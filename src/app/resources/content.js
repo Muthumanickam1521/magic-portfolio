@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Muthumanickam",
+  lastName: "V",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Data Scientist",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Bengaluru, India", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -81,9 +81,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Passionate fresher Data Scientist Trainee who is proﬁcient in uncovering valuable insights from complex and unstructured
+        data, with a strong commitment to transforming diverse data
+        into actionable intelligence. 
+        Avid about data patterns and their crucial role in driving eﬀective decision-making.
       </>
     ),
   },
